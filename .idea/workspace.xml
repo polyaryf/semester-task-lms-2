@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e808151c-3a9c-4f30-ba44-0f29fe9ac14e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lms-2/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/advice/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/LessonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/cors/CorsWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/dto/ExceptionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/dto/FileDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/dto/LessonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/dto/TokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/form/FileForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/form/LessonForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/form/UserForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/model/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/model/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/model/enums/FileState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/model/enums/LessonState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/model/enums/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/model/enums/UserState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/redis/models/RedisUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/redis/repository/BlacklistRepositoryRedisTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/redis/repository/RedisUsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/redis/services/RedisUsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/redis/services/RedisUsersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/repository/BlacklistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/repository/FileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/repository/LessonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/security/jwt/JwtAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/security/jwt/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/security/jwt/JwtAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/security/jwt/JwtLogoutFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/JwtBlacklistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/LessonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/impl/JwtBlacklistServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/impl/LessonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/mapper/FileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/mapper/LessonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/service/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PqCCVpw0cQtvr4tfPUGpOOKBra" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e808151c-3a9c-4f30-ba44-0f29fe9ac14e" name="Changes" comment="" />
+      <created>1684175098927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684175098927</updated>
+      <workItem from="1684175100581" duration="399000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
