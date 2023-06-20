@@ -27,7 +27,7 @@ services:
 
   user-service:
     build:
-      context: ./LMS-system-2.2
+      context: ./lms-2
       dockerfile: Dockerfile
     container_name: my-app
     restart: always
@@ -43,6 +43,17 @@ services:
       SPRING_REDIS_PORT: 6379
     ports:
       - "8080:8080"
+    networks:
+      - my-network
+
+  nextjs:
+    build:
+      context: ./nextjs-front
+      dockerfile: Dockerfile
+    container_name: nextjs-front
+    restart: always
+    ports:
+      - "3000:3000"
     networks:
       - my-network
 

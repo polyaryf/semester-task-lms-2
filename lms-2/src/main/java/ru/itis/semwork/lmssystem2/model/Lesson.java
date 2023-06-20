@@ -59,6 +59,9 @@ public class Lesson implements Serializable {
     @ToString.Exclude
     private List<User> users;
 
+    @OneToMany(cascade = {CascadeType.ALL}, mappedBy = "lesson")
+    private List<Comment> comments;
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

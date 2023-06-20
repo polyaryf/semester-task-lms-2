@@ -17,4 +17,5 @@ public interface FileRepository extends CrudRepository<File, Long> {
     @Query("select f from File f where f.lesson.id = :lessonId and f.state = :fileState")
     Optional<List<File>> findAllByLessonIdAndState(@Param(value = "lessonId") Long lessonId,
                                                    @Param(value = "fileState") FileState fileState);
+
 }

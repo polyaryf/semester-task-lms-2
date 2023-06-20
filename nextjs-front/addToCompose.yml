@@ -1,0 +1,10 @@
+ nextjs:
+    build:
+      context: ./nextjs-front
+      dockerfile: Dockerfile
+    container_name: nextjs-front
+    restart: always
+    ports:
+      - "3000:3000"
+    networks:
+      - my-network
