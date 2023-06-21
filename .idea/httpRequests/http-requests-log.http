@@ -1,0 +1,6 @@
+GET http://localhost:8080/api/v1/lesson
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwiY3JlYXRlZEF0IjoiMjAyMy0wNC0yOVQxOToxMTozOS41MjQxMjciLCJyb2xlIjoiVEVBQ0hFUiIsInN0YXRlIjoiQUNUSVZFIiwiZW1haWwiOiJ0ZXN0QGdtYWlsLmNvbSJ9.rvbULcJewXv30CaiTVTnXSCazLUIMcXLqhbsN2lpL1Q
+Content-Type: application/json
+
+###
+

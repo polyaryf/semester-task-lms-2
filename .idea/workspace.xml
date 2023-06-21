@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e808151c-3a9c-4f30-ba44-0f29fe9ac14e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lms-2/src/main/resources/application.properties.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/080facd3-a6fb-4aea-a35d-74b13d88cdf5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/080facd3-a6fb-4aea-a35d-74b13d88cdf5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lms-2/src/main/resources/http/lms.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lms-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/advice/RestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/advice/RestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/LessonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/LessonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lms-2/src/main/java/ru/itis/semwork/lmssystem2/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2PqCCVpw0cQtvr4tfPUGpOOKBra" />
   <component name="ProjectLevelVcsManager">
@@ -66,6 +69,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="JavaMethodFindUsagesOptions.isOverridingMethods" value="true" />
+    <property name="JavaMethodFindUsagesOptions.isSearchForTextOccurrences" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -76,7 +81,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lms-2/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/nextjs-front/node_modules/typescript/lib" />
@@ -87,6 +92,9 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="lms | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/lms-2/src/main/resources/http/lms.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lms-2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.itis.semwork.lmssystem2.Application" />
@@ -117,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.lms | #1" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.nextjs: Compose Deployment" />
       </list>
@@ -135,7 +144,7 @@
       <workItem from="1684181965571" duration="378000" />
       <workItem from="1684182447996" duration="1206000" />
       <workItem from="1684407766718" duration="4368000" />
-      <workItem from="1687273937422" duration="1356000" />
+      <workItem from="1687273937422" duration="9803000" />
     </task>
     <servers />
   </component>

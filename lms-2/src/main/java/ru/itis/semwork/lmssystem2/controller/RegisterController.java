@@ -18,7 +18,6 @@ import javax.validation.Valid;
 @RequiredArgsConstructor
 public class RegisterController {
 
-
     private final UserService userService;
 
     @PostMapping
@@ -26,5 +25,4 @@ public class RegisterController {
     public ResponseEntity<UserDto> add(@Valid @RequestBody UserForm userForm) {
         return ResponseEntity.ok(userService.register(userForm));
     }
-
 }

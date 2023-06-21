@@ -25,6 +25,7 @@ public class UserController {
     private final UserService userService;
 
     @GetMapping
+    @Operation(summary = "Getting all users")
     public ResponseEntity<List<UserDto>> getAll(){
         return ResponseEntity.ok(userService.getAll());
     }
@@ -36,7 +37,7 @@ public class UserController {
     }
 
     @GetMapping("/users/{id}")
-    @Operation(summary = "Getting users from lesson by id")
+    @Operation(summary = "Getting users by lesson id")
     public ResponseEntity<List<UserDto>> findUsersByLessonId(@PathVariable(name = "id") Long id) {
         return ResponseEntity.ok(userService.findUsersByLessonId(id));
     }
@@ -69,5 +70,4 @@ public class UserController {
 
         return ResponseEntity.ok(userService.removeFromLesson(userId, lessonId));
     }
-
 }

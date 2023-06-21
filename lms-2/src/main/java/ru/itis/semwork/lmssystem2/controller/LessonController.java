@@ -46,7 +46,6 @@ public class LessonController {
     @PostMapping
     @Operation(summary = "Adding the lesson by TEACHER")
     public ResponseEntity<LessonDto> add(@RequestBody LessonForm lessonForm) {
-
         return ResponseEntity.ok(lessonService.add(lessonForm));
     }
 

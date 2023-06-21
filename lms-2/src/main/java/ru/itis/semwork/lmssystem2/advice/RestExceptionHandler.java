@@ -10,6 +10,7 @@ import ru.itis.semwork.lmssystem2.dto.ExceptionDto;
 @ControllerAdvice
 @Slf4j
 public class RestExceptionHandler extends ResponseEntityExceptionHandler {
+
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ExceptionDto> handleError(Exception e) {
         log.error(e.getMessage());
